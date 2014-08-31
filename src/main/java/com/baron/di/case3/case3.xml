@@ -9,7 +9,7 @@
 	
 	<bean id="dIExampleController" class="com.baron.di.case3.DIExampleController">
 		<!-- <constructor-arg ref="dIExampleService"/> -->
-		<!-- <property name="dIExampleService" ref="dIExampleService"/> -->
+		<property name="service" ref="dIExampleService"/>
 	</bean>
 
 </beans>

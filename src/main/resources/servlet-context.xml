@@ -10,6 +10,8 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<context:component-scan base-package="com.baron.aop" />
+	<context:component-scan base-package="com.baron.login" />
+	<context:component-scan base-package="com.baron.join" />
 	
 	<!-- 웹에 특화된 인터셉터, 인자값은 HttpRequest, HttpResponse로.. -->
 	<mvc:interceptors>
